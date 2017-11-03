@@ -63,9 +63,15 @@
       var esri = L.tileLayer.provider('Esri.NatGeoWorldMap');
       topo.addTo(mapa);      
 	    
+   var fuego = L.tileLayer.provider('Thunderforest.SpinalMap');
+      topo.addTo(mapa);       
+	    
+		
+	   
 	    
 	    
-			
+	    
+	    
 	  
 	<!-- Definición de variable Cantón-->
 		
@@ -146,7 +152,8 @@
 	"OpenStreetMap": osm,
 	"MapBox" : mbox,
 	"Statemen": topoMap,
-	 "Esri.NatGeoWorldMap" : esri
+	 "Esri.NatGeoWorldMap" : esri, 
+	  "Thunderforest.SpinalMap":  fuego
 	      };
 	  
    var overlays = {
