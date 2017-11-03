@@ -60,7 +60,7 @@
 	    
 // Complemento de Leaflet-provides 	 
 
-      var topo = L.tileLayer.provider('OpenTopoMap');
+      var esri = L.tileLayer.provider('Esri.NatGeoWorldMap');
       topo.addTo(mapa);      
 	    
 	    
@@ -146,7 +146,7 @@
 	"OpenStreetMap": osm,
 	"MapBox" : mbox,
 	"Statemen": topoMap,
-	 "OpenTopoMap" : topo
+	 "Esri.NatGeoWorldMap" : esri
 	      };
 	  
    var overlays = {
